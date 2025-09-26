@@ -1,4 +1,4 @@
-# NSPO: Null-Space constrained Policy Optimization (NSPO)
+# NSPO: Null-Space constrained Policy Optimization
 
 
 
@@ -34,8 +34,8 @@ NSPO/
 ### Setup
 
 1. **Download Required Assets**  
-   - Get the **Qwen2.5-7B-Instruct** model from Hugging Face.
-   - Download the **PKU-SafeRLHF** dataset from Hugging Face.
+   - Get the 🔗 [**Qwen2.5-7B-Instruct**](https://huggingface.co/Qwen/Qwen2.5-7B-Instruct) model from Hugging Face.
+   - Download the 🔗 [**PKU-SafeRLHF**](https://huggingface.co/datasets/PKU-Alignment/PKU-SafeRLHF) dataset from Hugging Face.
 
 2. **Install Dependencies**
    ```bash
@@ -76,6 +76,6 @@ The `script/` and `evaluation/` directories contain benchmark evaluation scripts
 
 ## Pretrained Checkpoint
 
-We provide a pretrained checkpoint using NSPO based on Qwen2.5-7B-Instruct:
+We provide a checkpoint trained with NSPO based on Qwen2.5-7B-Instruct:
 
 🔗 [Qwen2.5-7B-Instruct-NSPO on Hugging Face](https://huggingface.co/ICLR2026NSPO/Qwen2.5-7B-Instruct-NSPO)
